@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo cp grub /etc/default/grub
+sudo patch /etc/default/grub grub.patch
+sudo update-grub

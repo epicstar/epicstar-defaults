@@ -1,0 +1,23 @@
+--- /etc/default/grub	2017-04-26 23:35:09.545819966 -0400
++++ grub	2017-04-27 00:57:02.076448048 -0400
+@@ -3,12 +3,12 @@
+ # For full documentation of the options in this file, see:
+ #   info -f grub -n 'Simple configuration'
+ 
+-GRUB_DEFAULT=0
++GRUB_DEFAULT=saved
+ #GRUB_HIDDEN_TIMEOUT=0
+ GRUB_HIDDEN_TIMEOUT_QUIET=true
+ GRUB_TIMEOUT=10
+ GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
+-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
++GRUB_CMDLINE_LINUX_DEFAULT=""
+ GRUB_CMDLINE_LINUX=""
+ 
+ # Uncomment to enable BadRAM filtering, modify to suit your needs
+@@ -32,3 +32,5 @@
+ 
+ # Uncomment to get a beep at grub start
+ #GRUB_INIT_TUNE="480 440 1"
++
++GRUB_SAVEDEFAULT=true
