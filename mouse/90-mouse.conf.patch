@@ -1,0 +1,10 @@
+--- /usr/share/X11/xorg.conf.d/90-mouse.conf	1969-12-31 19:00:00.000000000 -0500
++++ 90-mouse.conf	2017-04-27 01:03:15.788514629 -0400
+@@ -0,0 +1,6 @@
++Section "InputClass"
++    Identifier "mouse"
++    MatchIsPointer "on"
++    Option "AccelerationProfile" "-1"
++    Option "AccelerationScheme" "none"
++EndSection
+\ No newline at end of file
