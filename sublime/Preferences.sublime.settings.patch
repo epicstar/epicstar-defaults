@@ -1,0 +1,12 @@
+--- /home/jeremyjao/.config/sublime-text-3/Packages/User/Preferences.sublime-settings	2017-05-16 11:27:52.298219894 -0400
++++ Preferences-mine.sublime-settings	2017-05-16 11:28:53.706540494 -0400
+@@ -4,5 +4,8 @@
+   "ignored_packages":
+   [
+     "Vintage"
+-  ]
++  ],
++  "tab_size": 2,
++  "detect_indentation": true,
++  "translate_tabs_to_spaces": true
+ }
